@@ -1,0 +1,27 @@
+/* Default styles for small screens (1 column) */
+.nationalContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+/* Tablet (2 columns) */
+@media screen and (min-width: 768px) {
+    .nationalContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Large screen (3 columns) */
+@media screen and (min-width: 1024px) {
+    .nationalContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.flagger{
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+    
+}
