@@ -1,15 +1,28 @@
 import './App.css'
 import Countries from './components/Countries/Countries'
+import './react.css'
 
 function App() {
   
 
   return (
-    <>
-      <h1>React World tour</h1>
-      <Countries></Countries>
-    </>    
-  )
+    
+      <>
+        <div style={{display:"flex"}}>
+            <div className="container">
+              <span className="react-logo">
+                <span className="nucleo"></span>
+              </span>
+            </div>
+            <div>
+              <h1>React World Tour</h1>
+              <Countries />
+            </div>
+        </div>
+      </>
+    );
+        
+  
 }
 
 export default App

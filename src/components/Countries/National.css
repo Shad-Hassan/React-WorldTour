@@ -25,3 +25,18 @@
     object-fit: fill;
     
 }
+
+.visited{
+    background-color: rebeccapurple;
+}
+
+.flagContainer{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.flagContainer img{
+    width: 80px;
+    height: 50px;
+}
